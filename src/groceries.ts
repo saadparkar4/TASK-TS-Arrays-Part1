@@ -32,7 +32,7 @@ function getLastGroceryItem(groceries: string[]): string {
 
 // Step 5:
 // Write a removeLastGroceryItem function that removes the last grocery item and return it
-function removeLastGroceryItem(groceries: string[]): string | undefined {
+function removeLastGroceryItem(groceries: string[]): string {
 	// write your code here...
 	let lastElement = groceries.pop();
 	if (lastElement === undefined) return "";
